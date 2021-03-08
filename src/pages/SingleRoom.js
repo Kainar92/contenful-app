@@ -1,10 +1,9 @@
-import { Component } from "react";
-import defaultBcg from "../images/room-1.jpeg";
-import Hero from "../components/Hero";
-import Banner from "../components/Banner";
-import { Link } from "react-router-dom";
-import { RoomContext } from "../context";
-import StyledHero from "../components/StyledHero";
+import { Component } from 'react';
+import defaultBcg from '../images/room-1.jpeg';
+import Banner from '../components/Banner';
+import { Link } from 'react-router-dom';
+import { RoomContext } from '../context';
+import StyledHero from '../components/StyledHero';
 
 export class SingleRoom extends Component {
   constructor(props) {
@@ -71,11 +70,11 @@ export class SingleRoom extends Component {
               <h6>price : ${price}</h6>
               <h6>size : ${size} SQFT</h6>
               <h6>
-                max capacity :{" "}
-                {capacity > 1 ? `${capacity} people` : `${capacity} person`}{" "}
+                max capacity :{' '}
+                {capacity > 1 ? `${capacity} people` : `${capacity} person`}{' '}
               </h6>
-              <h6>{pets ? "pets allowed" : "no pets allowed"}</h6>
-              <h6>{breakfast && "free breakfast included"}</h6>
+              <h6>{pets ? 'pets allowed' : 'no pets allowed'}</h6>
+              <h6>{breakfast && 'free breakfast included'}</h6>
             </article>
           </div>
         </section>
